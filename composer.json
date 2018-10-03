@@ -1,0 +1,29 @@
+{
+    "name": "denpa/php-bitcoinutils",
+    "type": "library",
+    "description": "Here be dragons",
+    "keywords": ["bitcoin", "utilities"],
+    "homepage": "https://github.com/denpamusic/php-bitcoinutils",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Paavilainen",
+            "email": "denpa@netfleet.space",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7 || ^6.4 || ^7.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Denpa\\Bitcoin\\": "src"
+        },
+        "files" : [
+            "src/functions_include.php"
+        ]
+    }
+}
